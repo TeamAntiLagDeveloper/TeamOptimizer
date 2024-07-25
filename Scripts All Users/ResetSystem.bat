@@ -1,0 +1,4 @@
+ÿþ&cls
+Ã¿Ã¾&cls
+@echo off
+shutdown /r /f /t 5 /c "Team Optimizer vai reiniciar seu sistema"

@@ -1,0 +1,934 @@
+Windows Registry Editor Version 5.00			
+
+;OEM
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation]
+"Logo"="C:\\Windows\\Logo\\Logo.bmp"
+"Manufacturer"="By Team Optimizer"
+"Model"="TeamXOS V1"
+
+;Optimizer Memory
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000003
+"EnableSuperfetch"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"ClearPageFileAtShutdown"=dword:00000000
+"DisablePagingExecutive"=dword:00000001
+"LargeSystemCache"=dword:00000000
+"NonPagedPoolQuota"=dword:00000000
+"NonPagedPoolSize"=dword:00000000
+"PagedPoolQuota"=dword:00000000
+"PagedPoolSize"=dword:000000c0
+"SecondLevelDataCache"=dword:00000400
+"SessionPoolSize"=dword:000000c0
+"SessionViewSize"=dword:000000c0
+"SystemPages"=dword:ffffffff
+"PhysicalAddressExtension"=dword:00000001
+"FeatureSettings"=dword:00000001
+"FeatureSettingsOverride"=dword:00000003
+"FeatureSettingsOverrideMask"=dword:00000003
+"IoPageLockLimit"=dword:00fefc00
+"PoolUsageMaximum"=dword:00000060
+
+;Acelerar o Menu Iniciar
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"DragHeight"="4"
+"CoolSwitchColumns"="7"
+"ActiveWndTrackTimeout"=dword:00000000
+"MouseCornerClipLength"="6"
+"MouseMonitorEscapeSpeed"=dword:00000000
+"DragWidth"="4"
+"WallpaperStyle"="10"
+"ScreenSaveActive"="1"
+"TileWallpaper"="0"
+"WheelScrollLines"="3"
+"Pattern"=dword:00000000
+"FontSmoothingType"=dword:00000002
+"WindowArrangementActive"="1"
+"BlockSendInputResets"="0"
+"MenuShowDelay"="100"
+"ClickLockTime"=dword:000004b0
+"CaretWidth"=dword:00000001
+"FocusBorderWidth"=dword:00000001
+"WallpaperOriginX"=dword:00000000
+"WallpaperOriginY"=dword:00000000
+"DragFullWindows"="0"
+"CoolSwitchRows"="3"
+"ForegroundFlashCount"=dword:00000007
+"LeftOverlapChars"="3"
+"ForegroundLockTimeout"=dword:0013dd98
+"FontSmoothingGamma"=dword:00000000
+"DragFromMaximize"="1"
+"FontSmoothing"="2"
+"FocusBorderHeight"=dword:00000001
+"WheelScrollChars"="3"
+"DockMoving"="1"
+"SnapSizing"="1"
+"CursorBlinkRate"="530"
+"MouseWheelRouting"=dword:00000001
+"RightOverlapChars"="3"
+"FontSmoothingOrientation"=dword:00000001
+"PaintDesktopVersion"=dword:00000000
+"Win8DpiScaling"=dword:00000000
+"UserPreferencesMask"=hex:90,12,03,80,10,00,00,00
+"AutoColorization"=dword:00000001
+"MaxVirtualDesktopDimension"=dword:00000aac
+"MaxMonitorDimension"=dword:00000556
+"TranscodedImageCount"=dword:00000001
+"LastUpdated"=dword:ffffffff
+"TranscodedImageCache"=hex:7a,c3,01,00,80,1a,01,00,56,05,00,00,00,03,00,00,c2,\
+  b9,57,ed,b3,8c,d7,01,43,00,3a,00,5c,00,55,00,73,00,65,00,72,00,73,00,5c,00,\
+  50,00,4c,00,41,00,59,00,45,00,52,00,20,00,50,00,43,00,5c,00,44,00,6f,00,77,\
+  00,6e,00,6c,00,6f,00,61,00,64,00,73,00,5c,00,57,00,41,00,4c,00,4c,00,50,00,\
+  41,00,50,00,45,00,52,00,53,00,20,00,50,00,43,00,5c,00,34,00,61,00,31,00,35,\
+  00,34,00,30,00,66,00,62,00,2d,00,34,00,62,00,34,00,34,00,2d,00,34,00,64,00,\
+  30,00,35,00,2d,00,62,00,30,00,33,00,64,00,2d,00,39,00,37,00,32,00,34,00,64,\
+  00,38,00,39,00,66,00,62,00,31,00,64,00,39,00,2e,00,6a,00,70,00,67,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00
+"ImageColor"=dword:c4ffffff
+"HungAppTimeout"="4000"
+"WaitToKillAppTimeout"="5000"
+"AutoEndTasks"="1"
+"LowLevelHooksTimeout"=dword:00001000
+"WaitToKillServiceTimeout"=dword:00002000
+
+[HKEY_CURRENT_USER\Control Panel\Desktop\Colors]
+"Window"="255 255 255"
+"GradientInactiveTitle"="192 192 192"
+"TitleText"="255 255 255"
+"InactiveTitleText"="212 208 200"
+"HotTrackingColor"="0 0 128"
+"ButtonAlternateFace"="181 181 181"
+"ButtonShadow"="128 128 128"
+"GrayText"="128 128 128"
+"Menu"="212 208 200"
+"ButtonText"="0 0 0"
+"InfoText"="0 0 0"
+"Hilight"="10 36 106"
+"InactiveTitle"="128 128 128"
+"ActiveBorder"="212 208 200"
+"ActiveTitle"="10 36 106"
+"MenuText"="0 0 0"
+"HilightText"="255 255 255"
+"ButtonDkShadow"="64 64 64"
+"AppWorkSpace"="128 128 128"
+"GradientActiveTitle"="166 202 240"
+"ButtonLight"="212 208 200"
+"WindowFrame"="0 0 0"
+"InfoWindow"="255 255 255"
+"ButtonFace"="212 208 200"
+"Scrollbar"="212 208 200"
+"WindowText"="0 0 0"
+"ButtonHiLight"="255 255 255"
+"InactiveBorder"="212 208 200"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"SmCaptionWidth"="-330"
+"BorderWidth"="-15"
+"SmCaptionHeight"="-330"
+"CaptionWidth"="-330"
+"IconTitleWrap"="1"
+"ScrollHeight"="-255"
+"CaptionHeight"="-330"
+"CaptionFont"=hex:f1,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,05,00,53,00,65,00,67,00,6f,00,65,00,20,00,55,00,49,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"ScrollWidth"="-255"
+"MenuWidth"="-285"
+"SmCaptionFont"=hex:f1,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,\
+  00,00,00,00,01,00,00,05,00,53,00,65,00,67,00,6f,00,65,00,20,00,55,00,49,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"MenuFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,05,00,53,00,65,00,67,00,6f,00,65,00,20,00,55,00,49,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"StatusFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,05,00,53,00,65,00,67,00,6f,00,65,00,20,00,55,00,49,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"MenuHeight"="-285"
+"MessageFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,\
+  00,00,00,01,00,00,05,00,53,00,65,00,67,00,6f,00,65,00,20,00,55,00,49,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"IconFont"=hex:f4,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,00,90,01,00,00,00,\
+  00,00,01,00,00,05,00,53,00,65,00,67,00,6f,00,65,00,20,00,55,00,49,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00
+"Shell Icon Size"="32"
+"PaddedBorderWidth"="-60"
+"AppliedDPI"=dword:00000060
+"IconSpacing"="-1125"
+"IconVerticalSpacing"="-1125"
+"MinAnimate"="0"
+
+[HKEY_CURRENT_USER\Control Panel\Desktop\MuiCached]
+"MachinePreferredUILanguages"=hex(7):65,00,6e,00,2d,00,47,00,42,00,00,00
+
+;Desativar Serviços de Rastreamento de Diagnóstico
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Diagnostics\DiagTrack]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\DataCollection]
+"AllowTelemetry"=dword:00000000
+
+;Dimuniur processos
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"SvcHostSplitThresholdInKB"=dword:04000000
+
+;Ajustar Desempenho Cache
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"LargeSystemCache"=dword:00000001
+
+;Aumentar a Capacidade de Resposta
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"SystemResponsiveness"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
+"WaitToKillAppTimeout"="5000"
+"HungAppTimeout"="4000"
+"AutoEndTasks"="1"
+"LowLevelHooksTimeout"=dword:00001000
+"WaitToKillServiceTimeout"=dword:00002000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control]
+"WaitToKillServiceTimeout"="2000"
+
+;Aumentar Prioridade do Sistema de Arquivos
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"IoPageLockLimit"=dword:000f0000
+
+;Abrir Programas e Arquivos mais Rápidos
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"SymlinkLocalToRemoteEvaluation"=dword:00000001
+"SymlinkLocalToLocalEvaluation"=dword:00000001
+"NtfsDisableCompression"=dword:00000000
+"DisableDeleteNotification"=dword:00000000
+"FilterSupportedFeaturesMode"=dword:00000000
+"NtfsDisableEncryption"=dword:00000000
+"SymlinkRemoteToRemoteEvaluation"=dword:00000000
+"NtfsAllowExtendedCharacter8dot3Rename"=dword:00000000
+"NtfsDisable8dot3NameCreation"=dword:00000000
+"NtfsDisableLastAccessUpdate"=dword:00000001
+"SymlinkRemoteToLocalEvaluation"=dword:00000000
+"NtfsQuotaNotifyRate"=dword:00000e10
+"NtfsMftZoneReservation"=dword:00000000
+"NtfsDisableLfsDowngrade"=dword:00000000
+"Win31FileSystem"=dword:00000000
+"Win95TruncatedExtensions"=dword:00000001
+"NtfsEncryptPagingFile"=dword:00000000
+"NtfsDisableVolsnapHints"=dword:00000000
+"NtfsMemoryUsage"=dword:00000000
+"NtfsBugcheckOnCorrupt"=dword:00000000
+"ScrubMode"=dword:00000001
+"UdfsSoftwareDefectManagement"=dword:00000000
+"UdfsCloseSessionOnEject"=dword:00000003
+"RefsDisableLastAccessUpdate"=dword:00000001
+"ContigFileAllocSize"=dword:00000200
+
+;latencia monitor
+[HKLM\SYSTEM\CurrentControlSet\Services\DXGKrnl]
+"MonitorLatencyTolerance"=dword:00000000
+
+[HKLM\SYSTEM\CurrentControlSet\Services\DXGKrnl]
+"MonitorRefreshLatencyTolerance"=dword:00000000
+
+;Disable Superfetch
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/Main]
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/PfApLog]
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/StoreLog]
+"Enabled"=dword:00000000
+
+;Desativar Limitação de rede
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile]
+"NetworkThrottlingIndex"=dword:ffffffff
+
+;Disable Prefetcher
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+
+;Liberar o Uso da CPU
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Spooler]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PrintNotify]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PrintWorkflowUserSvc]
+"Start"=dword:00000004
+
+;Otimizar Agendador De Pacotes QoS
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched]
+"NonBestEffortLimit"=dword:00000000
+
+;MenuShowDelay
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
+
+;Disable Power Throttling
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power\PowerThrottling]
+"PowerThrottlingOff"=dword:00000001
+
+;Disable Hibernation
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"HibernateEnabled"=dword:00000000
+
+;Active Tema Dark
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"AppsUseLightTheme"=dword:00000000
+
+;Otimizar sua taxa de Upload
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\AFD\Parameters]
+"DefaultSendWindow"=dword:00018000
+
+;Otimizar Jogos
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games]
+"GPU Priority"=dword:00000008
+"Priority"=dword:00000006
+"Scheduling Category"="High"
+"SFIO Priority"="High"
+
+;Volume Clássico
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\MTCUVC]
+"EnableMtcUvc"=dword:00000000
+
+;Disable Transparency
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"ColorPrevalence"=dword:00000000
+"EnableTransparency"=dword:00000000
+
+;Desabilitar UAC
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000000
+
+;Disable Notification Center
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+
+;Add Take Ownership to Context Menu
+[-HKEY_CLASSES_ROOT\*\shell\TakeOwnership]
+[-HKEY_CLASSES_ROOT\*\shell\runas]
+
+[HKEY_CLASSES_ROOT\*\shell\TakeOwnership]
+@="Take Ownership"
+"Extended"=-
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+"NeverDefault"=""
+
+[HKEY_CLASSES_ROOT\*\shell\TakeOwnership\command]
+@="PowerShell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l & pause' -Verb runAs\""
+"IsolatedCommand"= "PowerShell -windowstyle hidden -command \"Start-Process cmd -ArgumentList '/c takeown /f \\\"%1\\\" && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l & pause' -Verb runAs\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\TakeOwnership]
+@="Take Ownership"
+"AppliesTo"="NOT (System.ItemPathDisplay:=\"C:\\Users\" OR System.ItemPathDisplay:=\"C:\\ProgramData\" OR System.ItemPathDisplay:=\"C:\\Windows\" OR System.ItemPathDisplay:=\"C:\\Windows\\System32\" OR System.ItemPathDisplay:=\"C:\\Program Files\" OR System.ItemPathDisplay:=\"C:\\Program Files (x86)\")"
+"Extended"=-
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+"Position"="middle"
+
+[HKEY_CLASSES_ROOT\Directory\shell\TakeOwnership\command]
+@="PowerShell -windowstyle hidden -command \"$Y = ($null | choice).Substring(1,1); Start-Process cmd -ArgumentList ('/c takeown /f \\\"%1\\\" /r /d ' + $Y + ' && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l /q & pause') -Verb runAs\""
+"IsolatedCommand"="PowerShell -windowstyle hidden -command \"$Y = ($null | choice).Substring(1,1); Start-Process cmd -ArgumentList ('/c takeown /f \\\"%1\\\" /r /d ' + $Y + ' && icacls \\\"%1\\\" /grant *S-1-3-4:F /t /c /l /q & pause') -Verb runAs\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas]
+@="Take Ownership"
+"Extended"=-
+"HasLUAShield"=""
+"NoWorkingDirectory"=""
+"Position"="middle"
+"AppliesTo"="NOT (System.ItemPathDisplay:=\"C:\\\")"
+
+[HKEY_CLASSES_ROOT\Drive\shell\runas\command]
+@="cmd.exe /c takeown /f \"%1\\\" /r /d y && icacls \"%1\\\" /grant *S-1-3-4:F /t /c & Pause"
+"IsolatedCommand"="cmd.exe /c takeown /f \"%1\\\" /r /d y && icacls \"%1\\\" /grant *S-1-3-4:F /t /c & Pause"
+
+;Desativar Teclas de Aderência
+[HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys]
+"Flags"=dword:0
+
+;Desativar Teclas de Alternância
+[HKEY_CURRENT_USER\Control Panel\Accessibility\ToggleKeys]
+"Flags"=dword:0
+
+;Diminuir Inputlag do Mouse
+[HKEY_CURRENT_USER\Control Panel\Accessibility\MouseKeys]
+"Flags"=dword:0
+
+;Diminuir Tempo de Resposta do Houver do Mouse
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseHoverTime"=dword:10
+
+;Diminuir Tempo de Resposta do Teclado
+[HKEY_CURRENT_USER\Control Panel\Accessibility\Keyboard Response]
+"Flags"=dword:0
+
+;-Inputlag
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\PriorityControl]
+"Win32PrioritySeparation"=dword:28
+
+;Photo Viwer Classic
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll]
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell]
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open]
+"MuiVerb"="@photoviewer.dll,-3043"
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\
+00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\
+25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\
+00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\
+6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\
+00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\
+5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\
+00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\DropTarget]
+"Clsid"="{FFE2A43C-56B9-4bf5-9A79-CC6D4285608A}"
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\print]
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\print\command]
+@=hex(2):25,00,53,00,79,00,73,00,74,00,65,00,6d,00,52,00,6f,00,6f,00,74,00,25,\
+00,5c,00,53,00,79,00,73,00,74,00,65,00,6d,00,33,00,32,00,5c,00,72,00,75,00,\
+6e,00,64,00,6c,00,6c,00,33,00,32,00,2e,00,65,00,78,00,65,00,20,00,22,00,25,\
+00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,00,65,00,73,00,\
+25,00,5c,00,57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,50,00,68,00,6f,\
+00,74,00,6f,00,20,00,56,00,69,00,65,00,77,00,65,00,72,00,5c,00,50,00,68,00,\
+6f,00,74,00,6f,00,56,00,69,00,65,00,77,00,65,00,72,00,2e,00,64,00,6c,00,6c,\
+00,22,00,2c,00,20,00,49,00,6d,00,61,00,67,00,65,00,56,00,69,00,65,00,77,00,\
+5f,00,46,00,75,00,6c,00,6c,00,73,00,63,00,72,00,65,00,65,00,6e,00,20,00,25,\
+00,31,00,00,00
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\print\DropTarget]
+"Clsid"="{60fd46de-f830-4894-a628-6fa81bc0190d}"
+
+;Disable Anti Aliasing
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+"AAF_NA"=dword:00000000
+"AntiAlias_NA"="0"
+"ASTT_NA"="0"
+
+;Desativar localizacao windows 10
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\location]
+"Value"="Deny"
+
+;Desativar Programa Windows Insider
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\PreviewBuilds]
+"AllowBuildPreview"=dword:00000000
+"EnableConfigFlighting"=dword:00000000
+
+; Latency Tolerance (melodytheneko)
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\DXGKrnl]
+"MonitorLatencyTolerance"=dword:00000001
+"MonitorRefreshLatencyTolerance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Power]
+"ExitLatency"=dword:00000001
+"ExitLatencyCheckEnabled"=dword:00000001
+"Latency"=dword:00000001
+"LatencyToleranceDefault"=dword:00000001
+"LatencyToleranceFSVP"=dword:00000001
+"LatencyTolerancePerfOverride"=dword:00000001
+"LatencyToleranceScreenOffIR"=dword:00000001
+"LatencyToleranceVSyncEnabled"=dword:00000001
+"RtlCapabilityCheckLatency"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\Power]
+"DefaultD3TransitionLatencyActivelyUsed"=dword:00000001
+"DefaultD3TransitionLatencyIdleLongTime"=dword:00000001
+"DefaultD3TransitionLatencyIdleMonitorOff"=dword:00000001
+"DefaultD3TransitionLatencyIdleNoContext"=dword:00000001
+"DefaultD3TransitionLatencyIdleShortTime"=dword:00000001
+"DefaultD3TransitionLatencyIdleVeryLongTime"=dword:00000001
+"DefaultLatencyToleranceIdle0"=dword:00000001
+"DefaultLatencyToleranceIdle0MonitorOff"=dword:00000001
+"DefaultLatencyToleranceIdle1"=dword:00000001
+"DefaultLatencyToleranceIdle1MonitorOff"=dword:00000001
+"DefaultLatencyToleranceMemory"=dword:00000001
+"DefaultLatencyToleranceNoContext"=dword:00000001
+"DefaultLatencyToleranceNoContextMonitorOff"=dword:00000001
+"DefaultLatencyToleranceOther"=dword:00000001
+"DefaultLatencyToleranceTimerPeriod"=dword:00000001
+"DefaultMemoryRefreshLatencyToleranceActivelyUsed"=dword:00000001
+"DefaultMemoryRefreshLatencyToleranceMonitorOff"=dword:00000001
+"DefaultMemoryRefreshLatencyToleranceNoContext"=dword:00000001
+"Latency"=dword:00000001
+"MaxIAverageGraphicsLatencyInOneBucket"=dword:00000001
+"MiracastPerfTrackGraphicsLatency"=dword:00000001
+"MonitorLatencyTolerance"=dword:00000001
+"MonitorRefreshLatencyTolerance"=dword:00000001
+"TransitionLatency"=dword:00000001
+
+; Desativar dicas do Windows
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
+"DisableSoftLanding"=dword:00000001
+
+; Desativar Ajuda Ativa
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Assistance\Client\1.0]
+"NoActiveHelp"=dword:00000001
+
+; Desativar o feedback do Windows
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Siuf\Rules]
+"NumberOfSIUFInPeriod"=dword:00000000
+"PeriodInNanoSeconds"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DataCollection]
+"DoNotShowFeedbackNotifications"=dword:00000001
+
+; Desativar o feedback da Ajuda da Microsoft
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Assistance\Client\1.0]
+"NoExplicitFeedback"=dword:00000001
+
+; Desativar Feedback de Escrita
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Input\TIPC]
+"Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Input\TIPC]
+"Enabled"=dword:00000000
+
+; Desativar o Assistente de Foco
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"EnableBalloonTips"=dword:00000000
+
+; Desativar a Central de Notificações
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"DisableNotificationCenter"=dword:00000001
+
+; Desativar a transparência
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize]
+"EnableTransparency"=dword:00000000
+
+; Desativar o Controle de Conta de Usuário (UAC)
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableLUA"=dword:00000000
+
+; Acelerar o tempo de resposta do menu Iniciar
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="0"
+
+; Desligar as Notícias Interessantes
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338389Enabled"=dword:00000000
+
+; Disable Automatic maintenance
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance]
+"MaintenanceDisabled"=dword:00000001
+
+; Habilitar Full-screen Exclusive para menor atraso de entrada
+[-HKEY_CURRENT_USER\System\GameConfigStore]
+"Win32_AutoGameModeDefaultProfile"=-
+
+[-HKEY_CURRENT_USER\System\GameConfigStore]
+"Win32_GameModeRelatedProcesses"=-
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_DSEBehavior"=dword:00000002
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000001
+"GameDVR_EFSEFeatureFlags"=dword:00000000
+"GameDVR_Enabled"=dword:00000000
+"GameDVR_FSEBehavior"=dword:00000002
+"GameDVR_FSEBehaviorMode"=dword:00000002
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR]
+"AllowGameDVR"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR]
+"value"=dword:00000000
+
+; Ativar modo Low Ram
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control]
+"SvcHostSplitThresholdInKB"=dword:68764420
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"LargeSystemCache"=dword:00000001
+"DisablePagingExecutive"=dword:00000001
+"DisablePagingCombining"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+"EnableSuperfetch"=dword:00000000
+
+;Disable Connected Devices Platform Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CDPSvc]
+"Start"=dword:00000004
+
+;Disable Connected Devices Platform User Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\CDPUserSvc]
+"Start"=dword:00000004
+
+;Disable Themes
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Themes]
+"Start"=dword:00000004
+
+;Disable Windows Biometric Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\WbioSrvc]
+"Start"=dword:00000004
+
+;Disable Windows Font Cache Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FontCache]
+"Start"=dword:00000004
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\FontCache3.0.0.0]
+"Start"=dword:00000004
+
+;Disable Graphics performance monitor service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\GraphicsPerfSvc]
+"Start"=dword:00000004
+
+;Disable Program Compatibility Assistant Service
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PcaSvc]
+"Start"=dword:00000004
+
+;Disable Windows Event Collector
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Wecsvc]
+"Start"=dword:00000004
+
+;Enable MMCSS
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\MMCSS]
+"Start"=dword:00000002
+
+;SizReqBuf
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"SizReqBuf"=dword:00017424
+
+;Disable GameDVR
+[HKEY_USERS\.DEFAULT\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+"GameDVR_FSEBehaviorMode"=dword:00000002
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000001
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000001
+"GameDVR_EFSEFeatureFlags"=dword:00000000
+"GameDVR_FSEBehavior"=dword:00000002
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+"GameDVR_FSEBehaviorMode"=dword:00000002
+"GameDVR_HonorUserFSEBehaviorMode"=dword:00000001
+"GameDVR_DXGIHonorFSEWindowsCompatible"=dword:00000001
+"GameDVR_EFSEFeatureFlags"=dword:00000000
+"GameDVR_FSEBehavior"=dword:00000002
+
+[HKEY_USERS\.DEFAULT\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR] 
+"AppCaptureEnabled"=dword:00000000
+
+[HKEY_USERS\.DEFAULT\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+
+[HKEY_CURRENT_USER\System\GameConfigStore]
+"GameDVR_Enabled"=dword:00000000
+
+[HKEY_USERS\.DEFAULT\Software\Microsoft\Windows\CurrentVersion\GameDVR]
+"AppCaptureEnabled"=dword:00000000
+"HistoricalCaptureEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR] 
+"AppCaptureEnabled"=dword:00000000
+"HistoricalCaptureEnabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\GameDVR]
+"AllowgameDVR"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PolicyManager\default\ApplicationManagement\AllowGameDVR]
+"value"=dword:00000000
+
+;Desabilitar Balões de Notificação
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"EnableBalloonTips"=dword:00000000
+
+;Desabilitar Notification Center
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+
+;Desabilitar Prefetcher
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000000
+
+;Desabilitar Superfecth
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/Main]
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/PfApLog]
+"Enabled"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Superfetch/StoreLog]
+"Enabled"=dword:00000000
+
+;Disable Delivery Optimzation
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Settings]
+"DownloadMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\DeliveryOptimization]
+"DownloadMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config]
+"DownloadMode"=dword:00000000
+"DODownloadMode"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization]
+"DODownloadMode"=dword:00000000
+"DownloadMode"=dword:00000000
+
+; Disable Driver Searching through Windows Update
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"ExcludeWUDriversInQualityUpdate"=dword:00000001
+"SetPolicyDrivenUpdateSourceForDriverUpdates"=dword:00000000
+
+; Disable Search Updates
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"DisableWindowsUpdateAccess"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU]
+"NoAutoUpdate"=dword:00000001
+"AUOptions"=dword:00000002
+"ScheduledInstallDay"=dword:00000000
+"ScheduledInstallTime"=dword:00000003
+
+;Photo Viwer Classic V2
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll]
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell]
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open]
+
+[HKEY_CLASSES_ROOT\Applications\photoviewer.dll\shell\open\command]
+@="\"C:\\Program Files (x86)\\Windows Photo Viewer\\PhotoViewer.dll\" \"%1\""
+
+[HKEY_CLASSES_ROOT\.bmp]
+@="PhotoViewer.FileAssoc.Bitmap"
+
+[HKEY_CLASSES_ROOT\.dib]
+@="PhotoViewer.FileAssoc.Bitmap"
+
+[HKEY_CLASSES_ROOT\.gif]
+@="PhotoViewer.FileAssoc.Gif"
+
+[HKEY_CLASSES_ROOT\.ico]
+@="PhotoViewer.FileAssoc.Tiff"
+
+[HKEY_CLASSES_ROOT\.jpeg]
+@="PhotoViewer.FileAssoc.Jpeg"
+
+[HKEY_CLASSES_ROOT\.jpg]
+@="PhotoViewer.FileAssoc.Jpeg"
+
+[HKEY_CLASSES_ROOT\.jpe]
+@="PhotoViewer.FileAssoc.Jpeg"
+
+[HKEY_CLASSES_ROOT\.jfif]
+@="PhotoViewer.FileAssoc.Jpeg"
+
+[HKEY_CLASSES_ROOT\.png]
+@="PhotoViewer.FileAssoc.Png"
+
+[HKEY_CLASSES_ROOT\.tiff]
+@="PhotoViewer.FileAssoc.Tiff"
+
+[HKEY_CLASSES_ROOT\.tif]
+@="PhotoViewer.FileAssoc.Tiff"
+
+;PowerPlan TeamOptimizer
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999]
+"Description"=hex(2):49,00,6d,00,70,00,72,00,6f,00,76,00,65,00,73,00,20,00,67,\
+  00,61,00,6d,00,69,00,6e,00,67,00,20,00,70,00,65,00,72,00,66,00,6f,00,72,00,\
+  6d,00,61,00,6e,00,63,00,65,00,20,00,61,00,6e,00,64,00,20,00,6c,00,61,00,74,\
+  00,65,00,6e,00,63,00,79,00,00,00
+"FriendlyName"=hex(2):54,00,65,00,61,00,6d,00,20,00,4f,00,70,00,74,00,69,00,6d,\
+  00,69,00,7a,00,65,00,72,00,20,00,47,00,61,00,6d,00,69,00,6e,00,67,00,20,00,\
+  50,00,65,00,72,00,66,00,6f,00,72,00,6d,00,61,00,6e,00,63,00,65,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\0012ee47-9041-4b5d-9b77-535fba8b1442]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\0012ee47-9041-4b5d-9b77-535fba8b1442\6738e2c4-e8a5-4a42-b16a-e040e769756e]
+"ACSettingIndex"=dword:00000000
+"DCSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\0012ee47-9041-4b5d-9b77-535fba8b1442\d639518a-e56d-4345-8af2-b9f32fb26109]
+"ACSettingIndex"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\0d7dbae2-4294-402a-ba8e-26777e8488cd]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\0d7dbae2-4294-402a-ba8e-26777e8488cd\309dce9b-bef4-4119-9921-a851fb12f0f4]
+"ACSettingIndex"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\238c9fa8-0aad-41ed-83f4-97be242c8f20]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\238c9fa8-0aad-41ed-83f4-97be242c8f20\94ac6d29-73ce-41a6-809f-6363ba21b47e]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\238c9fa8-0aad-41ed-83f4-97be242c8f20\bd3b718a-0680-4d9d-8ab2-e1d2b4ac806d]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\245d8541-3943-4422-b025-13a784f679b7]
+"ACSettingIndex"=dword:00000001
+"DCSettingIndex"=dword:00000002
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\2a737441-1930-4402-8d77-b2bebba308a3]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\2a737441-1930-4402-8d77-b2bebba308a3\0853a681-27c8-4100-a2fd-82013e970683]
+"ACSettingIndex"=dword:000186a0
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\2a737441-1930-4402-8d77-b2bebba308a3\48e6b7a6-50f5-4782-a5d4-53bb8f07e226]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\2a737441-1930-4402-8d77-b2bebba308a3\d4e98f31-5ffe-4ce1-be31-1b38b384c009]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\2e601130-5351-4d9d-8e04-252966bad054]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\2e601130-5351-4d9d-8e04-252966bad054\d502f7ee-1dc7-4efd-a55d-f04b6f5c0545]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\4f971e89-eebd-4455-a8de-9e59040e7347]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\4f971e89-eebd-4455-a8de-9e59040e7347\7648efa3-dd9c-4e3e-b566-50f929386280]
+"ACSettingIndex"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\4f971e89-eebd-4455-a8de-9e59040e7347\96996bc0-ad50-47ec-923b-6f41874dd9eb]
+"ACSettingIndex"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\4faab71a-92e5-4726-b531-224559672d19]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\06cadf0e-64ed-448a-8927-ce7bf90eb35d]
+"ACSettingIndex"=dword:0000000a
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\0cc5b647-c1df-4637-891a-dec35c318583]
+"ACSettingIndex"=dword:00000064
+"DCSettingIndex"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\3b04d4fd-1cc7-4f23-ab1c-d1337819c4bb]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\40fbefc7-2e9d-4d25-a185-0cfd8574bac6]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\4b92d758-5a24-4851-a470-815d78aee119]
+"ACSettingIndex"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\619b7505-003b-4e82-b7a6-4dd29c300971]
+"ACSettingIndex"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\7b224883-b3cc-4d79-819f-8374152cbe7c]
+"ACSettingIndex"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\893dee8e-2bef-41e0-89c6-b55d0929964c]
+"ACSettingIndex"=dword:00000064
+"DCSettingIndex"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\943c8cb6-6f93-4227-ad87-e9a3feec08d1]
+"ACSettingIndex"=dword:0000000a
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\54533251-82be-4824-96c1-47b60b740d00\bc5038f7-23e0-4960-96da-33abaf5935ec]
+"ACSettingIndex"=dword:00000064
+"DCSettingIndex"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\7516b95f-f776-4464-8c53-06167f40cc99]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\7516b95f-f776-4464-8c53-06167f40cc99\3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Power\User\PowerSchemes\99999999-9999-9999-9999-999999999999\7516b95f-f776-4464-8c53-06167f40cc99\fbd9aa66-9553-4097-ba44-ed6e9d65eab8]
+"ACSettingIndex"=dword:00000000
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TeamOptimizer]
+"SubCommands"=""
+"MUIVerb"="Team Optimizer"
+"Icon"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,46,00,69,00,6c,00,65,00,73,00,5c,00,45,00,61,00,73,00,79,00,20,00,43,00,\
+  6f,00,6e,00,74,00,65,00,78,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,49,\
+  00,63,00,6f,00,6e,00,65,00,54,00,65,00,61,00,6d,00,2e,00,69,00,63,00,6f,00,\
+  00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TeamOptimizer\shell]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TeamOptimizer\shell\TmOp1]
+"MUIVerb"="Limpar Arquivos Temporarios"
+"Icon"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,46,00,69,00,6c,00,65,00,73,00,5c,00,45,00,61,00,73,00,79,00,20,00,43,00,\
+  6f,00,6e,00,74,00,65,00,78,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,49,\
+  00,63,00,6f,00,6e,00,65,00,54,00,65,00,61,00,6d,00,2e,00,69,00,63,00,6f,00,\
+  00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TeamOptimizer\shell\TmOp1\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,25,00,5c,00,45,00,61,00,73,00,79,00,20,00,43,00,6f,00,6e,00,\
+  74,00,65,00,78,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,45,00,63,00,4d,\
+  00,65,00,6e,00,75,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,54,00,65,00,\
+  6d,00,70,00,43,00,6c,00,65,00,61,00,6e,00,00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TeamOptimizer\shell\TmOp2]
+"MUIVerb"="Reiniciar o Explorer"
+"Icon"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,46,00,69,00,6c,00,65,00,73,00,5c,00,45,00,61,00,73,00,79,00,20,00,43,00,\
+  6f,00,6e,00,74,00,65,00,78,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,49,\
+  00,63,00,6f,00,6e,00,65,00,54,00,65,00,61,00,6d,00,2e,00,69,00,63,00,6f,00,\
+  00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TeamOptimizer\shell\TmOp2\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,25,00,5c,00,45,00,61,00,73,00,79,00,20,00,43,00,6f,00,6e,00,\
+  74,00,65,00,78,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,45,00,63,00,4d,\
+  00,65,00,6e,00,75,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,52,00,65,00,\
+  45,00,78,00,70,00,6c,00,6f,00,72,00,65,00,72,00,00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TeamOptimizer\shell\TmOp3]
+"MUIVerb"="Limpar Memoria Ram"
+"Icon"=hex(2):43,00,3a,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,20,\
+  00,46,00,69,00,6c,00,65,00,73,00,5c,00,45,00,61,00,73,00,79,00,20,00,43,00,\
+  6f,00,6e,00,74,00,65,00,78,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,49,\
+  00,63,00,6f,00,6e,00,65,00,54,00,65,00,61,00,6d,00,2e,00,69,00,63,00,6f,00,\
+  00,00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\TeamOptimizer\shell\TmOp3\command]
+@=hex(2):22,00,25,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,46,00,69,00,6c,\
+  00,65,00,73,00,25,00,5c,00,45,00,61,00,73,00,79,00,20,00,43,00,6f,00,6e,00,\
+  74,00,65,00,78,00,74,00,20,00,4d,00,65,00,6e,00,75,00,5c,00,45,00,63,00,4d,\
+  00,65,00,6e,00,75,00,2e,00,65,00,78,00,65,00,22,00,20,00,2f,00,41,00,64,00,\
+  6d,00,69,00,6e,00,20,00,2f,00,52,00,65,00,64,00,75,00,63,00,65,00,4d,00,65,\
+  00,6d,00,6f,00,72,00,79,00,00,00
